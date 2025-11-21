@@ -125,3 +125,81 @@ h1{
   height: 55px;
   z-index: 5;
 }
+.amenities-section {
+  text-align: center;
+  padding: 60px 0;
+  background: #07211d;
+  color: #fff;
+}
+.subtitle {
+  font-size: 14px;
+  color: #e6b15f;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #ffae4c;
+  font-weight: 700;
+}
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+.amenity-card {
+    text-align: center;
+    background: #0f332e;
+    border-radius: 8px;
+    padding: 30px 22px;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.amenity-icon {
+  width: 55px;
+  margin-bottom: 15px;
+}
+.amenity-title {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #ffb251;
+  font-weight: 600;
+}
+.service h3{
+ font-family: Herr Von Muellerhoff, cursive;
+ font-size: 32px;
+ font-weight: 200;
+}
+.service p{
+  font-size: 18px;
+  font-weight: 200;
+  font-family: Fraunces;
+}
+.view-btn {
+  margin-top: 30px;
+  background: #e6b15f;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+/* responsive */
+@media (max-width: 768px) {
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .amenities-grid {
+    grid-template-columns: 1fr;
+  }
+}

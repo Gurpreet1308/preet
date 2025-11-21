@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Banner() {
     return(
-        <div className="relative gur min-h-screen">
+        <div className="relative gur min-h-screen ">
            <video
              src="/video.mp4"
             autoPlay
