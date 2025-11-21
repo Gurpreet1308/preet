@@ -161,6 +161,7 @@ h1{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 5px;
 }
 .amenity-icon {
   width: 55px;
@@ -181,6 +182,7 @@ h1{
   font-size: 18px;
   font-weight: 200;
   font-family: Fraunces;
+  line-height: 25px;
 }
 .view-btn {
   margin-top: 30px;
