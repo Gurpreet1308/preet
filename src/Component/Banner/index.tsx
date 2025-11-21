@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import Image from "next/image";
 
 export default function Banner() {
@@ -38,6 +37,7 @@ export default function Banner() {
  
       <svg
         xmlns="http://www.w3.org/2000/svg"
+
         width="310"
         height="155"
         className="bg-angle-center"
