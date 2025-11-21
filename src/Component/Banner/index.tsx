@@ -11,8 +11,8 @@ export default function Banner() {
             playsInline
            />
            <div className="absolute left-1/2 top-50 -translate-x-1/2 -translate-y-1/2">
-          <h1> <span className="width-40%">Where <br></br> Taste Meets</span>  </h1>
-          <h2>elegance</h2>
+          <h1> <span className="width-40%">Where Taste Meets</span> elegance </h1>
+          <h2></h2>
           <div className="flex gap-10 pl-10">
            </div>
           </div>

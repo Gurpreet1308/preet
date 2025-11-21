@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="/contact">Contact</Link>
         </nav>
 
-        <button className="bg-orange-500 text-white py-2 px-5 rounded-md hover:bg-orange-600 transition">
+        <button className="btn">
           Submit
         </button>
 

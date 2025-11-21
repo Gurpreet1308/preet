@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <Header/>
       <Banner/>
-      <Aboutus/>
       <Service/>
+      <Aboutus/>
    </>
   );
 }

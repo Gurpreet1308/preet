@@ -41,7 +41,7 @@ h1{
 }
 .gur h1 {
     color: #fff;
-    font-size: 120px;
+    font-size: 72px;
     font-weight: 400;
     line-height: normal;
     text-align: center;
@@ -152,7 +152,7 @@ h1{
 }
 .amenity-card {
     text-align: center;
-    background: #0f332e;
+    background: #304643;
     border-radius: 8px;
     padding: 30px 22px;
     font-size: 14px;
@@ -191,6 +191,61 @@ h1{
   cursor: pointer;
   font-size: 15px;
   font-weight: 600;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  transform: skewX(-20deg);
+  transition: all 0.6s ease;
+}
+
+.card:hover::before {
+  left: 150%;
+}
+.btn {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  width: auto;
+  padding: 10px 28px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  background-color: #eea557;
+  color: #000;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+ 
+.btn:hover {
+  color: #000;
+}
+ 
+.btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s ease;
+}
+ 
+.btn:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
 }
 /* responsive */
 @media (max-width: 768px) {
