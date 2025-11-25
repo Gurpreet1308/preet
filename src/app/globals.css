@@ -41,10 +41,12 @@ h1{
 }
 .gur h1 {
     color: #fff;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
+    padding-top: 300px;
+    font-family: Herr Von Muellerhoff, cursive;
+    font-size: 115px;
+    font-weight: 500;
+    line-height: 0.8;
 }
 .gur h4 {
     padding: 15px 40px;
