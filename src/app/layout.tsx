@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Fraunces, Herr_Von_Muellerhoff } from "next/font/google";
+import { Geist, Geist_Mono, Fraunces, Herr_Von_Muellerhoff, Allura } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -21,7 +21,13 @@ const fraunces = Fraunces({
 const herrVon = Herr_Von_Muellerhoff({
   variable: "--font-herrVon",
   subsets: ["latin"],
-  weight: ["400"], // Only one weight available
+  weight: ["400"],
+});
+
+const allura = Allura({
+  variable: "--font-allura",
+  subsets: ["latin"],
+  weight: ["400"], 
 });
 
 export const metadata: Metadata = {
@@ -37,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} ${herrVon.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} ${herrVon.variable} ${allura.variable} antialiased`}
       >
         {children}
       </body>
