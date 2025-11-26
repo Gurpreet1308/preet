@@ -42,10 +42,10 @@ h1{
 .gur h1 {
     color: #fff;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 350px;
     font-family: Herr Von Muellerhoff, cursive;
     font-size: 115px;
-    font-weight: 500;
+    font-weight: 550;
     line-height: 0.8;
 }
 .gur h4 {
@@ -77,7 +77,7 @@ h1{
     top: 150;
 }
 .gur video {
-    opacity: 1.1 !important;
+    opacity: 0.7 !important;
 }
  .tst-scroll-btn {
     z-index: 20;
