@@ -262,6 +262,19 @@ h1{
     grid-template-columns: 1fr;
   }
 }
-.selections{
-  background-color: #eea557;
+.selections {
+    background-color: #eea557;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+p {
+    width: 250px;
+    text-align: center;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 500px 500px 0px 0px;
 }

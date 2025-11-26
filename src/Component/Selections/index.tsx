@@ -8,8 +8,8 @@ export default function Selections() {
              <Image
                   src="/cat.webp"
                   alt="/"
-                  width={250}
-                  height={150}
+                  width={280}
+                  height={170}
                 />
                 <h2>Appetizers</h2>
                 <p>Small bites, big flavors — the perfect beginning to your dining experience</p>
@@ -18,8 +18,8 @@ export default function Selections() {
              <Image
                   src="/cat.webp"
                   alt="/"
-                  width={250}
-                  height={150}
+                  width={280}
+                  height={170}
                 />
                 <h2>Appetizers</h2>
                 <p>Small bites, big flavors — the perfect beginning to your dining experience</p>
@@ -28,8 +28,8 @@ export default function Selections() {
              <Image
                   src="/cat.webp"
                   alt="/"
-                  width={250}
-                  height={150}
+                  width={280}
+                  height={170}
                 />
                 <h2>Appetizers</h2>
                 <p>Small bites, big flavors — the perfect beginning to your dining experience</p>
