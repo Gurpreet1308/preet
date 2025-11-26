@@ -77,7 +77,7 @@ h1{
     top: 150;
 }
 .gur video {
-    opacity: 0.7 !important;
+    opacity: 0.6 !important;
 }
  .tst-scroll-btn {
     z-index: 20;
@@ -130,7 +130,7 @@ h1{
 .amenities-section {
   text-align: center;
   padding: 60px 0;
-  background: #07211d;
+  background: #18312e;
   color: #fff;
 }
 .subtitle {

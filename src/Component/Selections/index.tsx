@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-export default function Selections{
+export default function Selections() {
     return(
         <div>
             <div>
