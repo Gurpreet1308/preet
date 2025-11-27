@@ -4,6 +4,7 @@ import Header from "@/Component/Header";
 import Selections from "@/Component/Selections";
 import Service from "@/Component/Service";
 import Story from "@/Component/Story";
+import Testimonials from "@/Component/Testinomials";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Aboutus/>
       <Selections/>
       <Story/>
+      <Testimonials/>
    </>
   );
 }
