@@ -292,3 +292,17 @@ h1{
     height: auto;
     border-radius: 500px 500px 0px 0px;
 }
+.input {
+    border: 1px solid;
+    padding: 5px;
+}
+.form h1 {
+    font-family: Fraunces;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.form{
+  width: 45%;
+  margin: 40px 0px;
+}

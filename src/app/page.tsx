@@ -1,5 +1,6 @@
 import Aboutus from "@/Component/Aboutus";
 import Banner from "@/Component/Banner";
+import Form from "@/Component/Form";
 import Header from "@/Component/Header";
 import Selections from "@/Component/Selections";
 import Service from "@/Component/Service";
@@ -17,6 +18,7 @@ export default function Home() {
       <Selections/>
       <Story/>
       <Testimonials/>
+      <Form/>
    </>
   );
 }
